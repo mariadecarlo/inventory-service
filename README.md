@@ -9,11 +9,12 @@ Costruita con **Python**, **FastAPI**, **SQLAlchemy**, e **PostgreSQL**, con pos
 ## ⚙️ Tecnologie utilizzate
 
 - Python 3.12  
-- FastAPI – framework per API REST veloci  
-- SQLAlchemy – ORM per PostgreSQL  
-- PostgreSQL – database relazionale  
-- Pydantic – validazione dei dati  
+- FastAPI – framework per creare API REST in Python
+- SQLAlchemy – ORM per interagire con il database PostgreSQL
+- PostgreSQL – driver PostgreSQL per Python (connessione al database)
+- Pydantic – validazione e parsing dei dati (richieste/risposte API)
 - Docker & docker-compose – containerizzazione  
+- python-dotenv – gestione variabili d'ambiente  
 
 ---
 
@@ -21,5 +22,5 @@ Costruita con **Python**, **FastAPI**, **SQLAlchemy**, e **PostgreSQL**, con pos
 
 ### 1. Clona il repository
 ```bash
-git clone <url-del-repo>
-cd <cartella-del-progetto>
+git clone https://github.com/mariadecarlo/inventory-service.git
+cd inventory-service
