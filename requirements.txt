@@ -1,0 +1,6 @@
+fastapi           # framework per creare API REST in Python
+uvicorn           # server ASGI che esegue l'app FastAPI
+sqlalchemy        # ORM per interagire con il database PostgreSQL
+psycopg2-binary   # driver PostgreSQL per Python (connessione al database)
+pydantic          # validazione e parsing dei dati (richieste/risposte API)
+python-dotenv     # caricare variabili d'ambiente da file .env
